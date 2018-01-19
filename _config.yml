@@ -1,4 +1,4 @@
 name: Horizons
 description: Horizons template for Jekyll
 paginate: 10
-baseurl: '/Horizons-Jekyll-Theme'
+baseurl: ''
