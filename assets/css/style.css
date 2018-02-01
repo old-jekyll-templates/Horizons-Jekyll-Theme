@@ -223,10 +223,12 @@
 	ol.default {
 		list-style: decimal;
 		padding-left: 1.25em;
+		text-decoration: none;
 	}
 
 		ol.default li {
 			padding-left: 0.25em;
+			text-decoration: none;
 		}
 
 	ul {
@@ -236,6 +238,7 @@
 
 		ul.default {
 			list-style: none;
+			text-decoration: none;
 		}
 
 			ul.default li {
@@ -243,11 +246,13 @@
 				padding: 0.60em 0;
 				border-top: 1px solid;
 				border-color: rgba(192, 192, 192, 0.15);
+				text-decoration: none;
 			}
 
 			ul.default > :first-child {
 				padding-top: 0;
 				border-top: none;
+				text-decoration: none;
 			}
 
 		ul.icons {
@@ -471,7 +476,7 @@
 /* Header */
 
 	#header {
-		background: #333333 url("../images/pic01.jpg") no-repeat;
+		background: #333333 url("../images/software-freedom-day-2017.jpg") no-repeat;
 		background-size: cover;
 		color: #fff;
 		padding: 6em 0;
