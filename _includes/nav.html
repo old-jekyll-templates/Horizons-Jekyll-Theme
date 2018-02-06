@@ -2,14 +2,9 @@
 	<nav id="nav">
 		<ul>
 			{% assign current = page.url | downcase | split: '/' %}
-			<li {% if current[1] == 'index.html' %}class='current'{% endif %}><a href="{{ site.baseurl }}/index.html">Home</a></li>
+			<li {% if current[1] == 'index.html' %}class='current'{% endif %}><a href="{{ site.baseurl }}/">Home</a></li>
 			<li>
-				<a href="#">Bootcamp</a>
-				<ul>
-					<li><a href="{{ site.baseurl }}/jadwal.html">Jadwal Acara</a></li>
-					<li><a href="{{ site.baseurl }}/lokasi.html">Lokasi</a></li>
-					<li><a href="{{ site.baseurl }}/daftar.html">Daftar</a></li>
-				</ul>
+				<a href="{{ site.baseurl }}/bootcamp/">Bootcamp</a>
 			</li>
 			<li {% if current[1] == 'blog' %}class='current'{% endif %}><a href="{{ site.baseurl }}/blog">Blog</a></li>
 			<li><a href="#kontak">Kontak</a></li>
