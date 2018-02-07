@@ -3,3 +3,9 @@ description: Komunitas GNU/Linux Malang
 paginate: 10
 baseurl: ''
 plugins: [jekyll-paginate]
+exclude:
+  - README.md
+  - CNAME
+  - Dockerfile
+  - LICENSE.txt
+  - exclude/
