@@ -1,7 +1,5 @@
 name: Horizons
 description: Horizons template for Jekyll
 paginate: 10
-title: Quantum development group
-subtitle: "A free HTML5 agency template"
 url: "https://quantchemdev.github.io" # the base hostname & protocol for your site
-baseurl: '/Horizons-Jekyll-Theme'
+#baseurl: '/Horizons-Jekyll-Theme'
