@@ -3,17 +3,15 @@ description: Horizons template for Jekyll
 paginate: 10
 
 author:
-  name     : 'Quantum development group'
+  name      : 'Quantum development group'
   #email    : hi@nandomoreira.me
-  url      : "https://quantchemdev.github.io" # the base hostname & protocol for your site
+  url       : "https://quantchemdev.es" # the base hostname & protocol for your site
+  #baseurl   : '/' #subpath of the web
   #facebook : http://facebook.com/fernando.dev
   #twitter  : http://twitter.com/nandomoreirame
 
 github: https://github.com/quantchemdev
 #disqus_shortname: "fernandomoreira"
 #google_analytics: UA-52446115-1
-
-
-
-
-#baseurl: '/Horizons-Jekyll-Theme'
+sass:
+  sass_dir: assets/css
