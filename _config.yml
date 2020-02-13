@@ -5,8 +5,8 @@ paginate: 10
 author:
   name      : 'Quantum development group'
   #email    : hi@nandomoreira.me
-  url       : "https://quantchemdev.org" # the base hostname & protocol for your site
-  #baseurl   : '/' #subpath of the web
+  url       : "https://quantchemdev.github.io" # the base hostname & protocol for your site
+  baseurl   : '/' #subpath of the web
   #facebook : http://facebook.com/fernando.dev
   #twitter  : http://twitter.com/nandomoreirame
 
