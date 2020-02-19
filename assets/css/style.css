@@ -7,10 +7,6 @@
 @import url("http://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900");
 
 
-.twitterbar-div {
-    height: 100vh; /* vh stands for view-port height, 1vh is 1% of screen height */
-}
-
 /* Basic */
 
 	body {
