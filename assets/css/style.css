@@ -610,10 +610,12 @@
 
 		#main .sidebar .major {
 			padding-bottom: 2em;
+			background: no-repeat;
 		}
 
 			#main .sidebar .major h2 {
 				font-size: 1.8em;
+				background: no-repeat;
 			}
 
 		#main .sidebar .default li {
