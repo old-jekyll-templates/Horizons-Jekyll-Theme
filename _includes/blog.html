@@ -9,10 +9,11 @@
 						<div class="row">
 						{% for post in site.posts offset: 0 limit: 2 %}
 							<div class="6u">
+							     <div class="container">
 								<section class="box">
-									<div class="container">
+						
 									    <a href="#" class="image featured"><img src="{{ site.baseurl }}{{ post.featured }}" alt="" /></a>
-										</div>
+										
 									<header>
 										<h3>{{ post.title }}</h3>
 										<p>Posted {{ post.date | date_to_string }}</p>
@@ -25,6 +26,7 @@
 										</ul>
 									</footer>
 								</section>
+						             </div>
 							</div>
 						{% endfor %}
 						</div>
