@@ -618,10 +618,12 @@
 
 		#main .sidebar .default li {
 			border-color: #cdcdcd;
+			background: no-repeat;
 		}
 
 		#main .sidebar .default a {
 			color: #464646;
+			background: no-repeat;
 		}
 
 		#main .sidebar > :first-child {
