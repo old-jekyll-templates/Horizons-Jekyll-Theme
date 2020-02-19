@@ -1,0 +1,52 @@
+<!-- Nav -->
+	<nav id="nav">
+		<ul>
+			{% assign current = page.url | downcase | split: '/' %}
+			<li {% if current[1] == 'index.html' %}class='current'{% endif %}><a href="{{ site.baseurl }}/index.html">Home</a></li>
+			<li {% if current[1] == 'memebers.html' %}class='current'{% endif %}><a href="{{ site.baseurl }}/members.html">Members</a>
+				<ul>
+					 <li>
+						<a href="">Group leader</a>
+						<ul>
+							<li><a href="#">Dr. Eduard Matito</a></li>
+						</ul>
+					</li>
+                                        <li>
+						<a href="">Postdoc</a>
+						<ul>
+							<li><a href="#">Dr. Eloy Ramos-Cordoba</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="">Phd students</a>
+						<ul>
+					                <li><a href="#">Mireia Via Nadal</a></li>
+					                <li><a href="#">Irene Casademont Reig</a></li>
+					                <li><a href="#">Sebastian Sitkiewicz</a></li>
+					                <li><a href="#">Xiang Xu</a></li>
+                                                        <li><a href="#">Carmelo Naim</a></li>
+                      					<li><a href="#">Sílvia Escayola</a></li>
+				                	<li><a href="#">Aarón Rodríguez</a></li>
+	                				<li><a href="#">Andrei Paulau</a></li>
+						</ul>
+					</li>
+					<li><a href="#">Master students</a></li>
+					<li><a href="#">Undergraduated students</a>
+					      <ul>
+					                <li><a href="#">Markel Gonzalez</a></li>
+					      </ul>
+					</li>
+					 <li>
+						<a href="">Alumni</a>
+						<ul>
+							<li><a href="#">Dr. Mauricio Rodríguez Mayorga</a></li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+			<li {% if current[1] == 'blog' %}class='current'{% endif %}><a href="{{ site.baseurl }}/blog">News</a></li>
+			<li {% if current[1] == 'research.html' %}class='current'{% endif %}><a href="{{ site.baseurl }}/research.html">Research</a></li>
+			<li {% if current[1] == 'publications.html' %}class='current'{% endif %}><a href="{{ site.baseurl }}/publications.html">Publications</a></li>
+			<li {% if current[1] == 'opportunites.html' %}class='current'{% endif %}><a href="{{ site.baseurl }}/opportunites.html">Opportunites</a></li>
+		</ul>
+	</nav>
