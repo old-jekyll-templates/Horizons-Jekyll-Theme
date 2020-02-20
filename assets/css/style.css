@@ -444,18 +444,18 @@
 /* Wrapper */
 
 	.wrapper.style1 {
-		background: #fff;
+		background: #fff no-repeat;
 	}
 
 	.wrapper.style2 {
-		background: #ececec;
+		background: #ececec no-repeat;
 		padding: 6em 0;
 		text-align: center;
 	}
 
 	.wrapper.style3 {
 		padding: 2em 0 3.5em 0;
-		background: #ececec;
+		background: #ececec no-repeat;
 	}
 
 		.wrapper.style3 span {
@@ -546,7 +546,7 @@
 
 	.dropotron {
 		margin-top: -2px;
-		background: #3ac984;
+		background: #3ac984 no-repeat;
 		border-radius: 10px;
 		color: white;
 		min-width: 12em;
@@ -598,6 +598,7 @@
 
 	.no-sidebar #main .major, .left-sidebar #main .major, .right-sidebar #main .major {
 		text-align: left;
+		background: no-repeat;
 	}
 
 	.homepage #main .major {
@@ -610,27 +611,27 @@
 
 		#main .sidebar .major {
 			padding-bottom: 2em;
-			height: 100px;
+			background: no-repeat;
 		}
 
 			#main .sidebar .major h2 {
 				font-size: 1.8em;
+				background: no-repeat;
 			}
 
 		#main .sidebar .default li {
 			border-color: #cdcdcd;
-                        height: 100px;
 			background: no-repeat;
 		}
 
 		#main .sidebar .default a {
 			color: #464646;
-			height: 100px;
 			background: no-repeat;
 		}
 
 		#main .sidebar > :first-child {
 			margin-bottom: 3em;
+			background: no-repeat;
 		}
 
 /* Footer */
