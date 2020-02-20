@@ -603,6 +603,7 @@
 
 	.homepage #main .major {
 		text-align: center;
+		background: no-repeat;
 	}
 
 	#main {
@@ -631,7 +632,6 @@
 
 		#main .sidebar > :first-child {
 			margin-bottom: 3em;
-			background: no-repeat;
 		}
 
 /* Footer */
