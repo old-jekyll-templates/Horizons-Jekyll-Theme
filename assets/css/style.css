@@ -598,7 +598,6 @@
 
 	.no-sidebar #main .major, .left-sidebar #main .major, .right-sidebar #main .major {
 		text-align: left;
-		background: no-repeat;
 	}
 
 	.homepage #main .major {
@@ -611,6 +610,7 @@
 
 		#main .sidebar .major {
 			padding-bottom: 2em;
+			height: 100px;
 		}
 
 			#main .sidebar .major h2 {
@@ -619,11 +619,13 @@
 
 		#main .sidebar .default li {
 			border-color: #cdcdcd;
+                        height: 100px;
 			background: no-repeat;
 		}
 
 		#main .sidebar .default a {
 			color: #464646;
+			height: 100px;
 			background: no-repeat;
 		}
 
