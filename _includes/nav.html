@@ -33,13 +33,14 @@
 					<li><a href="#">Master students</a></li>
 					<li><a href="#">Undergraduated students</a>
 					      <ul>
-					                <li><a href="#">Markel Gonzalez</a></li>
+					            <li><a href="#">Markel Gonzalez</a></li>
+						   <li {% if current[1] == 'markel_gonzalez.html' %}class='current'{% endif %}><a href="{{ site.baseurl }}/members/markel_gonzalez.html">Markel Gonzalez</a></li>
 					      </ul>
 					</li>
 					 <li>
 						<a href="">Alumni</a>
 						<ul>
-							<li><a href="#">Dr. Mauricio Rodríguez Mayorga</a></li>
+						    <li {% if current[1] == 'mauricio_rodriguez.html' %}class='current'{% endif %}><a href="{{ site.baseurl }}/members/mauricio_rodriguez.html">Dr. Mauricio Rodríguez Mayorga</a></li>
 						</ul>
 					</li>
 				</ul>
