@@ -611,7 +611,7 @@
 	}
 
 		#main .sidebar .major {
-			padding-bottom: 2em;
+			padding-bottom: unset;
 			background: no-repeat;
 		}
 
