@@ -662,3 +662,13 @@
 		#footer a {
 			color: inherit;
 		}
+
+.resize {
+    width:60px;
+    height:80px;
+}
+
+.resize:hover {
+    height:600px;
+    width:800px;
+}
