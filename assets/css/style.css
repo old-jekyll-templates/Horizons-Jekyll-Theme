@@ -664,11 +664,11 @@
 		}
 
 .resize {
-    width:200px;
-    height:220px;
+    width:300px;
+    height:300px;
 }
 
 .resize:hover {
-    height:800px;
+    height:900px;
     width:900px;
 }
