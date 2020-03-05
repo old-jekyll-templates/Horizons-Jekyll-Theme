@@ -1,8 +1,8 @@
 ---
-title: Lorem Ipsum Dolor Sit Amet
-featured: images/pic04.jpg
+title: Group Photo
+featured: images/Girona_2020.jpg
 layout: post
 ---
 
-<p>Ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat..</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+<p>Last week we went to Girona to attend our 1st RSA-NLOPDFT meeting at University of Girona (UdG). This meeting was between our group and some members of IQCC. Next eddition of RSA-NLOPDFT meeting will be during this autumn in Donostia</p>
+
