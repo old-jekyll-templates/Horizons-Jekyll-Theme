@@ -44,9 +44,11 @@
 					</li>
 				</ul>
 			</li>
-			<li {% if current[1] == 'blog' %}class='current'{% endif %}><a href="{{ site.baseurl }}/blog">News</a></li>
-			<li {% if current[1] == 'research.html' %}class='current'{% endif %}><a href="{{ site.baseurl }}/research.html">Research</a></li>
+			<--! <li {% if current[1] == 'blog' %}class='current'{% endif %}><a href="{{ site.baseurl }}/blog">News</a></li> -->
+		        <li {% if current[1] == 'research.html' %}class='current'{% endif %}><a href="{{ site.baseurl }}/research.html">Research</a></li>
+			<li {% if current[1] == 'fundings.html' %}class='current'{% endif %}><a href="{{ site.baseurl }}/fundings.html">Fundings</a></li>
 			<li {% if current[1] == 'publications' %}class='current'{% endif %}><a href="{{ site.baseurl }}/publications.html">Publications</a></li>
-			<li {% if current[1] == 'opportunites' %}class='current'{% endif %}><a href="{{ site.baseurl }}/opportunites.html">Opportunites</a></li>		      
+			<li {% if current[1] == 'resources.html' %}class='current'{% endif %}><a href="{{ site.baseurl }}/resources.html">Resources</a></li>
+		        <li {% if current[1] == 'openings' %}class='current'{% endif %}><a href="{{ site.baseurl }}/openings.html">Openings</a></li>		      
 		</ul>
 	</nav>
