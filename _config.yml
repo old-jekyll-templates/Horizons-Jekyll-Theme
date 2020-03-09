@@ -17,4 +17,4 @@ sass:
   sass_dir: assets/css
   
 paginate: 5 # amount of posts to show
-paginate_path: page:num
+paginate_path: blog/page:num
