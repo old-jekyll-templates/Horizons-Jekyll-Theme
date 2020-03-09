@@ -1,5 +1,5 @@
 ---
-title: New Visitor:Silvia Escayola
+title: New Visitor: Silvia Escayola
 subtitle: March 02, 2020
 featured: images/SilviaDIPC.jpg
 layout: post
