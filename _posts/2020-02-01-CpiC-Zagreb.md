@@ -2,7 +2,7 @@
 title: 11CπC-Zagreb
 subtitle: <b>February 01, 2020</b>
 featured: images/Zagreb2020.jpg
-layout: posts
+layout: post
 ---
 
  <P ALIGN="justify"> Some of us have attended and contributed to the 11th Symposium on Computing π-conjugated Compounds tha was held in Zagreb <a href="https://sites.google.com/view/cpic11/home">(11CπC)</a>. On the left side, Dr. Eduard Matito giving his talk about <i>Does the Baird Rule hold 
