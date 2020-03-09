@@ -16,5 +16,5 @@ github: https://github.com/quantchemdev
 sass:
   sass_dir: assets/css
   
-paginate: 5 # amount of posts to show
+paginate: 3 # amount of posts to show
 paginate_path: blog/page:num
