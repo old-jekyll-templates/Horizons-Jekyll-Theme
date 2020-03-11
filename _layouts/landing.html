@@ -37,12 +37,27 @@ layout: default
 					</header>
 					<div class="row no-collapse-1">
 						<section class="4u">
-							<a href="#" class="image feature"><img src="{{ site.baseurl }}/assets/images/SilviaDIPC.jpg" alt="" width="200" height="360"></a>
-							<p>Welcome Silvia Escayola!</p>
+							{% for post in site.posts offset: 0 limit: 1 %}
+						<li>
+							
+							<img src="{{ site.baseurl }}/assets/{{ post.featured }}" alt="">
+							<a href="{{ site.baseurl }}{{ post.url }}"><p>{{ post.title }}</p></a>
+						</li>
+						{% endfor %}
+							<!-- <a href="#" class="image feature"><img src="{{ site.baseurl }}/assets/images/SilviaDIPC.jpg" alt="" width="200" height="360"></a>
+							<p>Welcome Silvia Escayola!</p> -->
 						</section>
 						<section class="4u">
-							<a href="#" class="image feature"><img src="{{ site.baseurl }}/assets/images/Girona_2020.jpg" alt="" width="312" height="360"></a>
-							<p>1st RSA-NLOPDFT meeting, Girona.</p>
+							{% for post in site.posts offset: 1 limit: 1 %}
+						<li>
+							
+							<img src="{{ site.baseurl }}/assets/{{ post.featured }}" alt="">
+							<a href="{{ site.baseurl }}{{ post.url }}"><p>{{ post.title }}</p></a>
+						</li>
+						{% endfor %}
+							
+							<!-- <a href="#" class="image feature"><img src="{{ site.baseurl }}/assets/images/Girona_2020.jpg" alt="" width="312" height="360"></a>
+							<p>1st RSA-NLOPDFT meeting, Girona.</p> -->
 						</section>
 						<section class="4u">
 					            <a class="twitter-timeline" data-height="400" data-chrome="nofooter"
