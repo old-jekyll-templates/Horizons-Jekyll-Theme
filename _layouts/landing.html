@@ -40,7 +40,7 @@ layout: default
 							{% for post in site.posts offset: 0 limit: 1 %}
 						<li>
 							
-							<img src="{{ site.baseurl }}/assets/{{ post.featured }}" alt=""  style="width: 25vw; min-width: 100px;" />
+							<img src="{{ site.baseurl }}/assets/{{ post.featured }}" alt=""  style="width: 25vw; min-width: 100px;">
 							<a href="{{ site.baseurl }}{{ post.url }}"><p>{{ post.title }}</p></a>
 						</li>
 						{% endfor %}
@@ -51,7 +51,7 @@ layout: default
 							{% for post in site.posts offset: 1 limit: 1 %}
 						<li>
 							
-							<img src="{{ site.baseurl }}/assets/{{ post.featured }}" alt="" style="width: 25vw; min-width: 100px;" />
+							<img src="{{ site.baseurl }}/assets/{{ post.featured }}" alt="" style="width: 25vw; min-width: 120px;">
 							<a href="{{ site.baseurl }}{{ post.url }}"><p>{{ post.title }}</p></a>
 						</li>
 						{% endfor %}
