@@ -1,8 +1,6 @@
 ---
 title: News
 layout: main
-paginate: 3 # amount of posts to show
-paginate_path: blog/page:num
 ---
 
 <!-- Main -->
@@ -20,7 +18,8 @@ paginate_path: blog/page:num
 						<span class="byline">Integer sit amet pede vel arcu aliquet pretium</span>
 					</header> -->
 					<ul class="style">
-						{% for post in site.posts offset: 0 limit: 5 %}
+						{% for post in paginator.posts %}
+						<!-- {% for post in site.posts offset: 0 limit: 5 %} -->
 						<li>
 							<a href="{{ site.baseurl }}{{ post.url }}"><h2>{{ post.title }}</h2></a>
 							<p>{{ post.subtitle }}</p>
@@ -30,6 +29,24 @@ paginate_path: blog/page:num
 						{% endfor %}
 					</ul>
 				<!-- </div> -->
+				<!-- Pagination links -->
+                                  <div class="pagination">
+                                      {% if paginator.previous_page %}
+                                      <a href="{{ paginator.previous_page_path }}" class="previous">
+                                       Previous
+                                        </a>
+                                         {% else %}
+                                         <span class="previous">Previous</span>
+                                            {% endif %}
+                                          <span class="page_number ">
+                                           Page: {{ paginator.page }} of {{ paginator.total_pages }}
+                                           </span>
+                                           {% if paginator.next_page %}
+                                            <a href="{{ paginator.next_page_path }}" class="next">Next</a>
+                                            {% else %}
+                                            <span class="next ">Next</span>
+                                                {% endif %}
+                                           </div>
 			</section>
 		</div>
 	     {% include sidebar.html %}	
