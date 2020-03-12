@@ -696,3 +696,10 @@
 .pagination {
     text-align: center;
  }
+
+.twitterbar {
+  width: 30%;
+  position: fixed;
+  background: no-repeat;
+    bottom:0;
+}
