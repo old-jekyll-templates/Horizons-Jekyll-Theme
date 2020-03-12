@@ -23,7 +23,7 @@ layout: main
 							
 							<a href="{{post.url | prepend: site.baseurl}}"><h2>{{ post.title }}</h2></a>
 							<p>{{ post.subtitle }}</p>
-							<img src="{{ site.baseurl }}/assets/{{ post.featured }}" alt="">
+			<img src="{{ site.baseurl }}/assets/{{ post.featured }}" alt=""  style="width: 30vw; min-width: 100 px">
 							{{ post.excerpt }} 
 						     </li>
 						{% endfor %}
