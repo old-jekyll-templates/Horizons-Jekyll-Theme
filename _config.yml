@@ -15,3 +15,6 @@ github: https://github.com/quantchemdev
 #google_analytics: UA-52446115-1
 sass:
   sass_dir: assets/css
+
+paginate: 4
+paginate_path: "/blog/page:num/"
