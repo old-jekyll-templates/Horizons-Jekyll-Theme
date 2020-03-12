@@ -594,14 +594,6 @@
 			color: inherit;
 		}
 
-.sidebar {
-  width: 15%;
-  position: fixed;
-  background: no-repeat;
-  border-right: 2px solid;
-    bottom:0;
-}
-
 /* Main */
 
 	.no-sidebar #main .major, .left-sidebar #main .major, .right-sidebar #main .major {
