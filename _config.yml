@@ -16,5 +16,16 @@ github: https://github.com/quantchemdev
 sass:
   sass_dir: assets/css
 
-paginate: 4
-paginate_path: "/blog/page:num/"
+paginate: nil
+paginate_path: nil
+
+# Pagination Settings
+pagination:
+  enabled: true
+  per_page: 4
+  offset: 2
+  permalink: '/blog/page:num/'
+  title: ':title - page :num of :max'
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true
