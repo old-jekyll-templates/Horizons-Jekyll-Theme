@@ -38,7 +38,7 @@ layout: default
 					<div class="row no-collapse-1">
 						<section class="4u">
 							{% for post in site.posts offset: 0 limit: 1 %}
-							<img src="{{ site.baseurl }}/assets/{{ post.featured }}" alt=""  style="height: 30vw;">
+							<img src="{{ site.baseurl }}/assets/{{ post.featured }}" alt=""  style="height: 25vw;">
 							<a href="{{ site.baseurl }}{{ post.url }}"><p><b>{{ post.title }}</b></p></a>
 						{% endfor %}
 							<!-- <a href="#" class="image feature"><img src="{{ site.baseurl }}/assets/images/SilviaDIPC.jpg" alt="" width="200" height="360"></a>
@@ -47,7 +47,7 @@ layout: default
 						<section class="4u">
 							{% for post in site.posts offset: 1 limit: 1 %}					
 							
-							<img src="{{ site.baseurl }}/assets/{{ post.featured }}" alt="" style="height: 30vw;">
+							<img src="{{ site.baseurl }}/assets/{{ post.featured }}" alt="" style="height: 25vw;">
 							<a href="{{ site.baseurl }}{{ post.url }}"><p><b>{{ post.title }}</b></p></a>
 						{% endfor %}
 							
