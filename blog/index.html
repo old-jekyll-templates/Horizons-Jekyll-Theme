@@ -1,8 +1,6 @@
 ---
 title: News
 layout: default
-pagination: 
-  enabled: true
 ---
 
 <!-- Main -->
@@ -24,34 +22,30 @@ pagination:
 						{% for post in paginator.posts %}
 						     <li>
 							<a href="{{ site.baseurl }}{{ post.url }}"><h2>{{ post.title }}</h2></a>
-							 <p>{{ post.subtitle }}</p>
+							<p>{{ post.subtitle }}</p>
 							<img src="{{ site.baseurl }}/assets/{{ post.featured }}" alt="">
-							<!--  {{ post.excerpt }} -->
-							     <div class="content">
-                                                                {{ post.content }}
-                                                             </div>
+							{{ post.excerpt }} 
 						     </li>
 						{% endfor %}
 					</ul>
 				<!-- </div> -->
-				<!-- Pagination links -->
-                                          <div class="pagination">
-                                             {% if paginator.previous_page %}
-                                            <a href="{{ paginator.previous_page_path }}" class="previous">
-                                            Previous
-                                               </a>
-                                           {% else %}
-                                           <span class="previous">Previous</span>
-                                            {% endif %}
-                                            <span class="page_number ">
-                                             Page: {{ paginator.page }} of {{ paginator.total_pages }}
-                                             </span>
-                                             {% if paginator.next_page %}
-                                            <a href="{{ paginator.next_page_path }}" class="next">Next</a>
-                                             {% else %}
-                                            <span class="next ">Next</span>
-                                                {% endif %}
-                                           </div>
+			<!-- 
+    Showing buttons to move to the next and to the previous list of posts (pager buttons).
+  -->
+  {% if paginator.total_pages > 1 %}
+  <ul class="pager">
+      {% if paginator.previous_page %}
+      <li class="previous">
+          <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
+      </li>
+      {% endif %}
+      {% if paginator.next_page %}
+      <li class="next">
+          <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
+      </li>
+      {% endif %}
+  </ul>
+  {% endif %}
 			</section>
 		</div>
 	   </div>
