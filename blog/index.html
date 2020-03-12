@@ -1,15 +1,16 @@
 ---
 title: News
-layout: default
+layout: main
 ---
 
 <!-- Main -->
 	<div id="main" class="wrapper style1">
+		<a href="{{site.baseurl}}"></a>	
 		<div class="container">
 		    <div class="row">
 			<!-- Content -->
 			<div id="content" class="7u skel-cell-important">
-					
+				
 			<section>
 				<!-- <div class="10u -1u"> 
 					 <header class="major">
@@ -19,7 +20,7 @@ layout: default
 					<ul class="style">
 						{% for post in paginator.posts %}
 						     <li>
-							<a href="{{site.baseurl}}"></a>
+							
 							<a href="{{post.url | prepend: site.baseurl}}"><h2>{{ post.title }}</h2></a>
 							<p>{{ post.subtitle }}</p>
 							<img src="{{ site.baseurl }}/assets/{{ post.featured }}" alt="">
