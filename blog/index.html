@@ -17,7 +17,6 @@ layout: default
 						<span class="byline">Integer sit amet pede vel arcu aliquet pretium</span>
 					</header> -->
 					<ul class="style">
-						<!-- {% for post in site.posts offset: 0 limit: 5 %} -->
 						{% for post in paginator.posts %}
 						     <li>
 							<a href="{{post.url | prepend: site.baseurl}}"><h2>{{ post.title }}</h2></a>
@@ -53,8 +52,9 @@ layout: default
 </div>
 {% endif %}
 			    </ul>
+				{% include sidebar.html %}
 			</section>
-		{% include sidebar.html %}
+		
 		   </div>
 	       </div>
 	  </div>	
