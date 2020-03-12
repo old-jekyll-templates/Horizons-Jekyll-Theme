@@ -15,7 +15,8 @@ github: https://github.com/quantchemdev
 #google_analytics: UA-52446115-1
 sass:
   sass_dir: assets/css
-
+  
+# Explicitly turn off the old code
 paginate: nil
 paginate_path: nil
 
@@ -26,6 +27,6 @@ pagination:
   offset: 2
   permalink: '/blog/page:num/'
   title: ':title - page :num of :max'
-  limit: 0
+  limit: 5
   sort_field: 'date'
   sort_reverse: true
