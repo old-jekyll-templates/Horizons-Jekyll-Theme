@@ -1,7 +1,7 @@
 ---
 title: 11CπC-Zagreb
 subtitle: <b>February 01, 2020</b>
-featured: images/Zagreb2020.jpg
+featured: images/Zagreb2020.png
 layout: post
 ---
 
