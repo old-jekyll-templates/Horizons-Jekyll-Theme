@@ -1,5 +1,5 @@
 # [Quantum Chemistry Development Group](https://quantchemdev.github.io)
-This web is built by forking [old-jekyll-templates/Horizons-Jekyll-Theme](https://github.com/old-jekyll-templates/Horizons-Jekyll-Theme)
+This web was built by forking [old-jekyll-templates/Horizons-Jekyll-Theme](https://github.com/old-jekyll-templates/Horizons-Jekyll-Theme)
 ## Declaration of data privacy
 All the member personal information (photos, names, contacts,...) from this web can not be used by anyone else outside of our group without contacting us and asking for permission.
 ### General guide to maintain this web
