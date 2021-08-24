@@ -16,25 +16,19 @@
 						<a href="{{ site.baseurl }}/members/eloy_ramos_cordoba.html">Postdoc</a>
 						<ul>
 							<!--<li><a href="https://eloyramoscordoba.wordpress.com/aboutme/">Dr. Eloy Ramos-Cordoba</a></li>-->
-							<li><a href="{{ site.baseurl }}/members/eloy_ramos_cordoba.html">Dr. Eloy Ramos-Cordoba</a></li>
-							<li><a href="{{ site.baseurl }}/members/ruben_ferradas.html">Dr. Rubén R. Ferradás</a></li>
-							<li><a href="{{ site.baseurl }}/members/luis_antonio.html">Dr. Luis Antonio Soriano Agueda</a></li>
+							{% include postdoc_list.html %}
 						</ul>
 					</li>
 					<li>
 						<a href="{{ site.baseurl }}/members/sebastian_sitkewicz.html">Phd students</a>
 						<ul>
-					                <li {% if current[1] == 'sebastian_sitkewicz.html' %}class='current'{% endif %}><a href="{{ site.baseurl }}/members/sebastian_sitkewicz.html">Sebastian Sitkiewicz</a></li>
-							<li {% if current[1] == 'xiang_xu.html' %}class='current'{% endif %}><a href="{{ site.baseurl }}/members/xiang_xu.html">Xiang Xu</a></li>
-						        <li {% if current[1] == 'carmelo_naim.html' %}class='current'{% endif %}><a href="{{ site.baseurl }}/members/carmelo_naim.html">Carmelo Naim</a></li>
-                                                        <li {% if current[1] == 'silvia_escayola.html' %}class='current'{% endif %}><a href="{{ site.baseurl }}/members/silvia_escayola.html">Silvia Escayola</a></li>
-				                	<li {% if current[1] == 'arron_rodriguez.html' %}class='current'{% endif %}><a href="{{ site.baseurl }}/members/arron_rodriguez.html">Aarón Rodríguez</a></li>
-	                				<li {% if current[1] == 'andrei_paulau.html' %}class='current'{% endif %}><a href="{{ site.baseurl }}/members/andrei_paulau.html">Andrei Paulau</a></li>
+							{% include phd_list.html %}
+					                <!-- <li {% if current[1] == 'sebastian_sitkewicz.html' %}class='current'{% endif %}><a href="{{ site.baseurl }}/members/sebastian_sitkewicz.html">Sebastian Sitkiewicz</a></li>-->
 						</ul>
 					</li>
 					<li><a href="{{ site.baseurl }}/members/markel_gonzalez.html">Master students</a>
 						 <ul>
-						   <li {% if current[1] == 'markel_gonzalez.html' %}class='current'{% endif %}><a href="{{ site.baseurl }}/members/markel_gonzalez.html">Markel Gonzalez</a></li>
+						   {% include master_list.html %}
 					      </ul>
 					</li>
 					
@@ -44,16 +38,14 @@
 					 <li>
 						<a href="{{ site.baseurl }}/members/mauricio_rodriguez.html">Alumni</a>
 						<ul>
-						    <li {% if current[1] == 'mauricio_rodriguez.html' %}class='current'{% endif %}><a href="{{ site.baseurl }}/members/mauricio_rodriguez.html">Dr. Mauricio Rodríguez Mayorga</a></li>
-						    <li {% if current[1] == 'mireia_via_nadal.html' %}class='current'{% endif %}><a href="{{ site.baseurl }}/members/mireia_via_nadal.html">Dr. Mireia Via Nadal</a></li>
-						     <li {% if current[1] == 'irene_casademont_reig.html' %}class='current'{% endif %}><a href="{{ site.baseurl }}/members/irene_casademont_reig.html">Dr. Irene Casademont Reig</a></li>
+						    {% include alumni_list.html %}
 						 </ul>
 					</li>
 					
 					<li>
 						<a href="{{ site.baseurl }}/members/nina_szczotka.html">Visitors</a>
 						<ul>
-						    <li {% if current[1] == 'nina_szczotka.html' %}class='current'{% endif %}><a href="{{ site.baseurl }}/members/nina_szczotka.html">Nina Szczotka</a></li>
+						   {% include visitors_list.html %}
 						 </ul>
 					</li>
 				</ul>
