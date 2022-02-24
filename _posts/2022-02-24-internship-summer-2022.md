@@ -1,7 +1,7 @@
 ---
 title: Summer 2022 Internship position
 subtitle: <b>February 24, 2022</b>
-featured: images/internship_aromaticity_2022(1).jpg
+featured: images/internship2022.png
 layout: post
 ---
 
