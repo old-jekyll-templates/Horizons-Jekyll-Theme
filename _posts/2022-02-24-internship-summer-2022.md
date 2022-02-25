@@ -1,5 +1,5 @@
 ---
-title: Summer 2022 Internship position
+title: Summer 2022 Internship Position
 subtitle: <b>February 24, 2022</b>
 featured: images/internship2022.png
 layout: post
