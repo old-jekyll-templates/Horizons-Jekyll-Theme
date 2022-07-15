@@ -7,4 +7,4 @@ layout: post
 
 <br>
 <P ALIGN="justify"> <font size="5"> Congratulations to  Markel Gonzalez! Today he successfully defensed his TCCM Master's thesis.
-         Welcome him as a PhD student and continue staying with us! &#127881;&#127881;&#127881;</font></p>
+         Welcome him as a new PhD student and continue staying with us! &#127881;&#127881;&#127881;</font></p>
