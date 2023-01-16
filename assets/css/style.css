@@ -4,7 +4,7 @@
 	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 */
 @import url("font-awesome.min.css");
-@import url("http://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900");
+/*@import url("http://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900"); */
 
 /* Basic */
 
@@ -22,7 +22,7 @@
 
 	a {
 		color: #3ac984;
-		text-decoration: underline;
+		text-decoration: none;
 	}
 
 		a:hover {
@@ -471,7 +471,7 @@
 /* Header */
 
 	#header {
-		background: #333333 url("../images/pic01.jpg") no-repeat;
+		background: #333333 url("../images/software-freedom-day-2017.jpg") no-repeat;
 		background-size: cover;
 		color: #fff;
 		padding: 6em 0;
